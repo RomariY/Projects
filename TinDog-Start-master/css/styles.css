@@ -1,0 +1,170 @@
+body{
+    font-family: 'Montserrate','Times New Roman', Times, serif;
+}
+
+#title{
+    background-color: rgb(150, 150, 150);
+    padding-bottom: 300px;
+}
+
+.main_txt{
+    font-family: 'Montserrat','Times New Roman', Times, serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 3% 1% 5%;
+    width: 50%;
+}
+
+.navbar{
+    margin-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 5px;
+}
+
+.nav-link{
+    font-size: 1.4rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu','Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.download_button{
+    margin: 5% 3% 5% 0;
+}
+
+.title_img{
+    transform: rotate(30deg);
+    position: absolute;
+    right: -10%;
+}
+
+#features{
+    margin: 0 0 3rem 0;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.features_s{
+    text-align: center;
+    padding: 10rem;
+}
+
+.s_icons{
+    font-size: 4rem;
+    color: rgb(157, 171, 255);
+    transition: 1s;
+    margin-bottom: 2rem;
+}
+.s_icons:hover{
+    color: blueviolet;
+}
+
+.features_s h3{ 
+    font-family: "Montserrat";
+}
+
+.features_s p{
+    font-size: 1.5rem;
+    color: gray;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color:  rgb(184, 184, 184);
+}
+
+#testimonials h2{
+    font-family: 'Ubuntu','Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin: 0 auto 0 auto;
+    width: 70%;
+}
+
+.dog{
+    border-radius: 100%;
+    margin: 0 auto 0 auto;
+    padding: 1.5rem 0;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    margin: 0 auto 0 auto;
+    padding: 1.5rem 0;
+}
+
+#press{
+    background-color:  rgb(184, 184, 184);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3%;
+}
+
+.press_logo{
+    width: 15%;
+    margin: 20px 40px 50px;
+}
+
+.logos{
+    margin: 0 auto 0 auto;
+}
+
+.main_logo{
+    margin: 0 0 7rem;
+}
+
+#pricing{
+    padding: 3rem 0;
+}
+
+#cta{
+    background-color: rgb(184, 184, 184);
+    text-align: center;  
+    padding: 7% 10%;
+}
+
+.bottom_txt{
+    margin: 0 auto 4% auto;
+    width: 50%;
+    font-size: 3rem;
+}
+
+.download_button_2{
+    margin: 0 1%;
+    font-size: 2rem;
+}
+
+#footer{
+    margin: 2% auto 0 auto;
+    text-align: center;
+}
+
+#footer a{
+    text-decoration: none;
+    color: black;
+    padding: 1% 0.5rem;
+}
+#footer p{
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    html, body {
+        width: auto !important;
+        overflow-x: hidden !important;
+    }
+}

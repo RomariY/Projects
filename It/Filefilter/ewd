@@ -1,0 +1,21 @@
+import os
+while 1<2:
+    l = os.listdir("/home/roman/Documents/It/File filter/input")
+    for i in l:
+        i = i+" "
+        if i[-5:-1]==".txt":
+            curent_p = "/home/roman/Documents/It/File filter/input/" + i
+            new_path ="C:/Users/denis/OneDrive/Рабочий стол/Conv/testing/filter/txt/" + i
+            os.rename(curent_p, new_path)
+            
+            print(i+" transfared to "+ new_path)
+        elif i[-5:-1]==".png":
+            curent_p = "C:/Users/denis/OneDrive/Рабочий стол/Conv/testing/filter/Input/" + i
+            new_path ="C:/Users/denis/OneDrive/Рабочий стол/Conv/testing/filter/png/" + i
+            os.rename(curent_p, new_path)
+            
+            print(i+" transfared to "+ new_path)
+        elif i[-5:-1]==".jpg":
+            curent_p = "C:/Users/denis/OneDrive/Рабочий стол/Conv/testing/filter/Input/" + i
+            new_path ="C:/Users/denis/OneDrive/Рабочий стол/Conv/testing/filter/jpg/" + i
+            os.rename(curent_p, new_path)
